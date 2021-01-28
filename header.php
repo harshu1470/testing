@@ -9,7 +9,7 @@
         <div id="container">
                 <ul>
                         <li>Help</li>
-                        <li>About us
+                        <li>About testing
                         <ul>
                                 <li>About website</li>
                                 <li>Goals</li>
