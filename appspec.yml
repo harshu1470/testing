@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /testing_zip.zip
-    destination: /var/www/html/wp-content/themes/
+    destination: /var/www/html/wp-content/themes/testing/
 hooks:
   BeforeInstall:
     - location: scripts/installapache.sh
