@@ -1,0 +1,135 @@
+/*
+Theme Name: Testing
+Theme URI: http://wordpress.org/themes/Testing
+Author: Harshit
+Author URI: http://wordpress.org/themes/Testing
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+*/
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url(backimage.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+ .loginbox{
+ 	width: 320px;
+ 	height: 420px;
+ 	background: darkblue;
+ 	color: #fff;
+ 	top: 50%;
+ 	left: 50%;
+ 	position: absolute;
+ 	transform: translate(-50%,-50%);
+ 	box-sizing: border-box;
+ 	padding: 70px 30px;
+ 	border-radius: 20px;
+ }
+
+ .icon{
+ 	width: 100px;
+ 	height: 100px;
+ 	border-radius: 50%;
+ 	position: absolute;
+ 	top: -50px;
+    left: calc(50% - 50px);
+ }
+
+ h1{
+ 	margin: 0;
+ 	padding: 0 0 20px;
+ 	text-align: center;
+ 	font-size: 22px;
+}
+
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+ .loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+     color: #fff;
+     font-size: 16px;
+ }
+
+ .loginbox input[type="submit"]{
+ 	border: none;
+ 	outline: none;
+ 	height: 40px;
+ 	background: #fb2525;
+ 	color: #fff;
+ 	font-size: 18px;
+ 	border-radius: 20px;
+ }
+
+ .loginbox input[type="submit"]:hover
+ {
+ 	cursor: pointer;
+ 	background: #ffc107;
+ 	color: #000;
+ }
+
+ .loginbox a{
+ 	text-decoration: none;
+ 	font-size: 12px;
+ 	line-height: 20px;
+ 	color: darkgrey;
+ }
+
+ #container ul{
+ 	list-style: none;
+}
+
+#container ul li{
+	background-color: #fb2525;
+	width: 150px;
+	border: 1px solid white;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: right;
+	color: white;
+	font-size: 18px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#container ul li:hover{
+	background-color: #ffc107;
+}
+
+#container ul ul{
+	display: none;
+}
+
+#container ul li:hover > ul{
+	display: block;
+}
+
+#container ul ul ul{
+	margin-left: 150px;
+	top: 0px;
+	position: absolute;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
