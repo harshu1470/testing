@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 files:
   - source: /header.php
-    destination: /var/www/html/wp-content/themes/testing/
-hooks:
+    destination: /var/www/html/wp-content/themes
+    
   BeforeInstall:
     - location: scripts/installapache.sh
       timeout: 300
