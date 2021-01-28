@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /var/www/html/wp-content/themes/testing/
     
-  BeforeInstall:
+    BeforeInstall:
     - location: scripts/installapache.sh
       timeout: 300
       runas: root
@@ -13,6 +13,6 @@ files:
       runas: root
       timeout: 300
   
-  AfterInstall:
+    AfterInstall:
     - location: scripts/restartapache.sh
       runas: root
