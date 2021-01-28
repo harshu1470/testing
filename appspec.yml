@@ -1,0 +1,18 @@
+version: 0.0
+os: linux
+files:
+  - source: /testing_zip.zip
+    destination: /var/www/html/wp-content/themes/
+hooks:
+  BeforeInstall:
+    - location: scripts/installapache.sh
+      timeout: 300
+      runas: root
+    
+    - location: scripts/startapache.sh
+      runas: root
+      timeout: 300
+  
+  AfterInstall:
+    - location: scripts/restartapache.sh
+      runas: root
