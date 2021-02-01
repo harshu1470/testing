@@ -11,7 +11,7 @@
                         <li>Help</li>
                         <li>About testing
                         <ul>
-                                <li>About website</li>
+                                <li>About Us</li>
                                 <li>Goals</li>
                                 <li>Latest Offers</li>
                                 <li>Achievements
