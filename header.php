@@ -12,7 +12,7 @@
                         <li>About testing
                         <ul>
                                 <li>About website</li>
-                                <li>Future Plans</li>
+                                <li>Goals</li>
                                 <li>Latest Offers</li>
                                 <li>Achievements
                                         <ul>
